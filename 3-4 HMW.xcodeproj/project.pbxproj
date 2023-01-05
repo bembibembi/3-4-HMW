@@ -13,6 +13,8 @@
 		FBE06D952966F0A2008BB68D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBE06D932966F0A2008BB68D /* Main.storyboard */; };
 		FBE06D972966F0A6008BB68D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBE06D962966F0A6008BB68D /* Assets.xcassets */; };
 		FBE06D9A2966F0A6008BB68D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBE06D982966F0A6008BB68D /* LaunchScreen.storyboard */; };
+		FBE06DA42966F7E8008BB68D /* foodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE06DA32966F7E8008BB68D /* foodCell.swift */; };
+		FBE06DA82967041E008BB68D /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE06DA72967041E008BB68D /* Menu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		FBE06D962966F0A6008BB68D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBE06D992966F0A6008BB68D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FBE06D9B2966F0A6008BB68D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBE06DA32966F7E8008BB68D /* foodCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodCell.swift; sourceTree = "<group>"; };
+		FBE06DA72967041E008BB68D /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				FBE06D962966F0A6008BB68D /* Assets.xcassets */,
 				FBE06D982966F0A6008BB68D /* LaunchScreen.storyboard */,
 				FBE06D9B2966F0A6008BB68D /* Info.plist */,
+				FBE06DA32966F7E8008BB68D /* foodCell.swift */,
+				FBE06DA72967041E008BB68D /* Menu.swift */,
 			);
 			path = "3-4 HMW";
 			sourceTree = "<group>";
@@ -138,8 +144,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBE06D922966F0A2008BB68D /* ViewController.swift in Sources */,
+				FBE06DA42966F7E8008BB68D /* foodCell.swift in Sources */,
 				FBE06D8E2966F0A2008BB68D /* AppDelegate.swift in Sources */,
 				FBE06D902966F0A2008BB68D /* SceneDelegate.swift in Sources */,
+				FBE06DA82967041E008BB68D /* Menu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
